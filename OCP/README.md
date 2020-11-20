@@ -59,4 +59,13 @@ logger.log('Emergency error! Please fix me!')
 
 ### DESENHO DO FLUXO NÃO REFATORADO
 
+![OCP_Incorrect](https://user-images.githubusercontent.com/37075313/99739597-dff3c080-2aab-11eb-9758-701fdfd86d66.png)
+
 ### DESENHO DO FLUXO COM PROPOSTA DE REFATORAÇÃO
+
+![OCP_Refactor1](https://user-images.githubusercontent.com/37075313/99739974-bc7d4580-2aac-11eb-9dd0-960566ad01a2.png)
+
+![OCP_Refactor2](https://user-images.githubusercontent.com/37075313/99739980-c0a96300-2aac-11eb-9cfd-eec31fe21715.png)
+
+
+
