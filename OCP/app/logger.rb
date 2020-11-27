@@ -1,5 +1,5 @@
 class Logger
-  def initialize(format: format, delivery: delivery)
+  def initialize(format:, delivery:)
     @format = format
     @delivery = delivery
   end
