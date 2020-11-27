@@ -9,6 +9,3 @@ RSpec.describe DeliveryBySlack do
     end
   end
 end
-
-#puts escreve na variável $stdout, que coloca as coisas no console
-#teste para ver se o puts funciona e não o que ele retorna
