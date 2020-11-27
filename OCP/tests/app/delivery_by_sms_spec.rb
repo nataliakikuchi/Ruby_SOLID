@@ -3,12 +3,9 @@ require './app/delivery_by_sms'
 RSpec.describe DeliveryBySms do
   context 'when receiving a text' do
     it 'delivers text by SMS' do
-      text = 'Olá, mundo!'
-      delivers_by_sms = puts 'Enviado por SMS.'
+      text = "Enviado por SMS.\n"
 
-      subject = described_class.new.deliver(text)
-
-      expect(subject).to eq(delivers_by_sms)
+      expect { described_class.new.deliver(text) }.to output(text).to_stdout
     end
   end
 end
