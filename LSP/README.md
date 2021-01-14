@@ -85,3 +85,4 @@ creditas.analyse_all_applications
 
 ### DESENHO DO FLUXO COM PROPOSTA DE REFATORAÇÃO
 
+![LSP_refactor](https://user-images.githubusercontent.com/37075313/104530795-8c08e200-55eb-11eb-8b83-aa7537af0408.png)
