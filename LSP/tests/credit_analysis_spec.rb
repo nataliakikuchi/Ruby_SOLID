@@ -1,7 +1,7 @@
 require './app/credit_analysis'
 
 RSpec.describe CreditAnalysis do
-  context 'analysing an application' do
+  context 'when analysing an application' do
     it 'calls the analyst to analyse the application' do
       analyst = spy('Analyst')
       application = double('Application')
