@@ -5,6 +5,25 @@ class CreditAnalysis
     @analysts = analysts
     @applications = applications
   end
+  # analysts = ["Kat", "Aemon", "AD-Doctor"]
+  # applications = ["João", "Luana", "Lucas"]
+
+  # Kat
+      # João => análise manual - analisando
+      # Luana => análise manual - analisando
+      # Lucas => análise manual - analisando
+
+  # Aemon
+      # João => análise manual - analisando
+      # Luana => análise manual - analisando
+      # Lucas => análise manual - analisando
+
+  # AD-Doctor
+      # João => análise automática - aprovado
+      # Luana => análise automática - rejeitado
+      # Lucas => análise automática - aprovado
+
+  #é ok dizer que só printou? ou o comportamento importa (o que foi printado)?
 
   def analyse_all_applications
     @analysts.each do |analyst|
@@ -59,6 +78,8 @@ first_application = Application.new("João")
 second_application = Application.new("Luana")
 third_application = Application.new("Lucas")
 applications = [first_application, second_application, third_application]
+
+
 
 katniss_everdeen = Analyst.new("Katniss Everdeen")
 aemon_targaryen = Analyst.new("Aemon Targaryen")
