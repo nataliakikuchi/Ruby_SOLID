@@ -5,7 +5,7 @@ require './app/automatic_decision_analyst'
 RSpec.describe CreditAnalysis do
   context 'when analysing an application' do
     context 'and analyst is an automatic analyst' do
-      it 'automatically analyses the application' do
+      xit 'automatically analyses the application' do
         automatic_analyst = spy(AutomaticDecisionAnalyst)
         application = double('Application', customer_name: 'Natália')
         reject = true
