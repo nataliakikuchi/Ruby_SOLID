@@ -6,20 +6,20 @@ RSpec.describe AutomaticDecisionAnalyst do
       it 'returns that the application is approved' do
         application = double('Application', customer_name: 'Zé')
         name = 'Natália'
-        result =  "#{name} approved #{application.customer_name}'s application!\n"
 
         subject = described_class.new(name)
 
+        result =  "#{name} approved #{application.customer_name}'s application!\n"
         expect { subject.analyse(application, true) }.to output(result).to_stdout
       end
 
       it 'returns that the application is rejected' do
         application = double('Application', customer_name: 'Zé')
         name = 'Natália'
-        result =  "#{name} rejected #{application.customer_name}'s application!\n"
 
         subject = described_class.new(name)
 
+        result =  "#{name} rejected #{application.customer_name}'s application.\n"
         expect { subject.analyse(application, false) }.to output(result).to_stdout
       end
     end
