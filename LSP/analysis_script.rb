@@ -8,8 +8,6 @@ second_application = Application.new("Luana")
 third_application = Application.new("Lucas")
 applications = [first_application, second_application, third_application]
 
-
-
 katniss_everdeen = Analyst.new("Katniss Everdeen")
 aemon_targaryen = Analyst.new("Aemon Targaryen")
 doctor_strange = AutomaticDecisionAnalyst.new("Doctor Strange")
