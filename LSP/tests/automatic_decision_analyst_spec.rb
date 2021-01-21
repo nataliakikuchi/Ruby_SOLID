@@ -9,7 +9,7 @@ RSpec.describe AutomaticDecisionAnalyst do
 
         subject = described_class.new(name, Random.new(1))
 
-        result =  "#{name} approved #{application.customer_name}'s application!\n"
+        result = "#{name} approved #{application.customer_name}'s application!\n"
         expect { subject.analyse(application) }.to output(result).to_stdout
       end
 
@@ -19,7 +19,7 @@ RSpec.describe AutomaticDecisionAnalyst do
 
         subject = described_class.new(name, Random.new(0))
 
-        result =  "#{name} rejected #{application.customer_name}'s application.\n"
+        result = "#{name} rejected #{application.customer_name}'s application.\n"
         expect { subject.analyse(application) }.to output(result).to_stdout
       end
     end
